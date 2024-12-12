@@ -17,7 +17,7 @@ Suivez bien les étapes suivantes : <ul>
           href="https://github.com/Gr33nW33n/nuxtship-template"
           target="_blank"
           rel="noopener"
-          >Nous Rejoindre</LandingLink
+          >Rejoindre le discord</LandingLink
         >
         <LandingLink
           size="lg"
@@ -27,6 +27,7 @@ Suivez bien les étapes suivantes : <ul>
           target="_blank"
           >Lire le Règlement</LandingLink
         >
+
       </div>
     </div>
   </main>

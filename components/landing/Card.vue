@@ -15,8 +15,8 @@ defineProps(["plan"]);
         alt="Starship starts the engine"
         loading="eager"
         format="avif"
-        width="512"
-        height="512"
+        width="256"
+        height="256"
       />
         <p class="mt-3 text-4xl font-bold text-black md:text-4xl">
           {{
