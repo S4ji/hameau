@@ -99,7 +99,7 @@ const pricing = [
 <template>
   <LandingContainer>
     <LandingSectionhead>
-      <template v-slot:title>Métiers</template>
+      <template v-slot:title>Magie</template>
       <template v-slot:desc
         >Grâce à Indrid, de nombreuses races sont accessibles, avec leur bonus au niveau du gameplay.</template
       >
