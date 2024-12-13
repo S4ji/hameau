@@ -163,7 +163,7 @@ const pricing = [
             >
         </LandingSectionhead>
 
-        <div class="grid md:grid-cols-3 gap-16 mx-auto max-w-screen-lg mt-12">
+        <div class="grid md:grid-cols-3 gap-4 mx-auto max-w-screen-lg mt-4">
             <LandingCard v-for="item of pricing" :plan="item" />
         </div>
     </LandingContainer>
