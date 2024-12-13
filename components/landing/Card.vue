@@ -5,21 +5,23 @@ defineProps(['plan'])
 <template>
     <div>
         <div
-            class="flex flex-col w-full order-first lg:order-none border-2 border-[#489d9d25] border-opacity-50 py-5 px-6 rounded-md"
+            class="flex flex-col w-full order-first lg:order-none border-2 border-[#489d9d25] border-opacity-50 py-5 px-6 rounded-md h-[700px]"
         >
-            <div class="text-center">
-                <h4 class="text-lg font-medium text-teal-100">
+            <div class="flex flex-col items-center justify-between flex-grow">
+                <h4 class="text-lg font-medium text-teal-100 mb-4 text-center">
                     {{ plan.name }}
                 </h4>
-                <img
-                    class="transition-transform transform hover:scale-125"
-                    :src="plan.link"
-                    alt="Starship starts the engine"
-                    loading="eager"
-                    format="avif"
-                    width="256"
-                    height="256"
-                />
+
+                <div class="flex justify-center mb-4">
+                    <img
+                        class="rounded-full w-48 h-48 object-contain transition-transform transform hover:scale-125"
+                        :src="plan.link"
+                        alt="Starship starts the engine"
+                        loading="eager"
+                        format="avif"
+                    />
+                </div>
+
                 <p class="mt-3 text-4xl font-bold text-teal-50 md:text-4xl">
                     {{
                         plan.price && typeof plan.price === 'object'
@@ -27,20 +29,15 @@ defineProps(['plan'])
                             : plan.price
                     }}
                 </p>
-                <!-- {
-        plan.price.original && (
-          <p class="mt-1 text-xl font-medium text-gray-400 line-through md:text-2xl">
-            {plan.price.original}
-          </p>
-        )
-      } -->
             </div>
-            <ul class="grid mt-8 text-left gap-y-4">
+
+            <!-- Features List -->
+            <ul class="mt-8 space-y-4 flex-grow overflow-y-auto">
                 <li
                     v-for="item of plan.features"
                     class="flex items-start gap-3 text-teal-100"
                 >
-                    <LandingTick className="w-6 h-6" />
+                    <LandingTick class="w-6 h-6" />
                     <span>{{ item }}</span>
                 </li>
             </ul>
