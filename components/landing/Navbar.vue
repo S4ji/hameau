@@ -38,7 +38,7 @@ const open = ref(false);
     <header class="flex flex-col lg:flex-row justify-between items-center my-5">
       <div class="flex w-full lg:w-auto items-center justify-between">
         <a href="/" class="text-lg"
-          ><span class="font-bold text-slate-800">Nuxt</span
+          ><span class="font-bold text-slate-400">Nuxt</span
           ><span class="text-slate-500">ship</span>
         </a>
         <div class="block lg:hidden">
@@ -73,7 +73,7 @@ const open = ref(false);
           <li v-for="item of menuitems" v-bind:key="item.title">
             <a
               :href="item.path"
-              class="flex lg:px-3 py-2 text-gray-600 hover:text-gray-900"
+              class="flex lg:px-3 py-2 text-white hover:text-gray-400"
             >
               {{ item.title }}
             </a>

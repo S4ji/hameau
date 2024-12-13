@@ -3,7 +3,13 @@ const features = [
   {
     title: "Slots évolutifs",
     description:
-      "Serveur dédié 30 slots avec possibilité de passer à 40 à n'importe quel instant.",
+      "Serveur dédié 35 slots avec possibilité de passer à 40 à n'importe quel instant.",
+    icon: "bx:bxs-briefcase",
+  },
+  {
+    title: "Map Savage Wilds",
+    description:
+      "Venez découvrir la célèbre map moddée, revisitée par nos soins avec Murun comme centre urbain !.",
     icon: "bx:bxs-briefcase",
   },
   {
@@ -30,12 +36,7 @@ const features = [
       "Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication. It just works!",
     icon: "bx:bxs-file-find",
   },
-  {
-    title: "Community",
-    description:
-      "Nuxt is an open source project powered by hundreds of contributors making thousands of individual contributions.",
-    icon: "bx:bxs-user",
-  },
+ 
 ];
 </script>
 
@@ -44,7 +45,7 @@ const features = [
     <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
       Serveur RP écrit
     </h2>
-    <p class="text-lg mt-4 text-slate-600">
+    <p class="text-lg mt-4 text-slate-300">
       Dans un paysage sauvage et mystique, où la nature oscille entre majesté et cruauté, une force ancienne et insaisissable réside. Jadis prospère, ce royaume est maintenant corrompu par un mal indicible qui transforme des créatures pacifiques en prédateurs féroces et engendre des monstres terrifiants. Des étrangers, dépouillés de leurs pouvoirs et transportés dans cet univers hostile par un portail mystérieux, se retrouvent piégés sans espoir de retour. 
     </p>
   </div>
@@ -55,7 +56,7 @@ const features = [
       </div>
       <div>
         <h3 class="font-semibold text-lg">{{ item.title }}</h3>
-        <p class="text-slate-500 mt-2 leading-relaxed">
+        <p class="text-slate-300 mt-2 leading-relaxed">
           {{ item.description }}
         </p>
       </div>

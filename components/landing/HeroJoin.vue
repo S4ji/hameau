@@ -6,7 +6,7 @@
       <h1 class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight">
         Pour nous rejoindre 
       </h1>
-      <p class="text-lg mt-4 text-slate-600 max-w-xl">
+      <p class="text-lg mt-4 text-slate-300 max-w-xl">
 Suivez bien les étapes suivantes : <ul>
   <li>- Rejoingez notre discord</li>
   <li>- Lisez le règlement</li>
