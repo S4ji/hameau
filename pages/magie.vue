@@ -17,7 +17,7 @@ const pricing = [
         popular: false,
         link: fireImg,
         features: [
-            "Le métier de médecin consiste à soigner les blessés, tant personnage non-joueur que personnage joueur, il est le seul à pouvoir remettre complètement les blessés sur pieds le plus rapidement et efficacement possible. Il est le rempart face à la mort. C'est l'un des métiers les plus important pour la survie sur les terres du Hameau.",
+            'Comme une étoile naissant dans la nuit, le mage invoque les flammes, les faisant onduler, se tordre et brûler sous son commandement. Chaque étincelle obéit à son souffle, et il sculpte le feu dans des formes infinies, modulant sa chaleur, sa lumière, sa danse dévorante ou délicate à sa volonté.',
         ],
         button: {
             text: 'Get Started',
@@ -29,7 +29,7 @@ const pricing = [
         popular: false,
         link: waterImg,
         features: [
-            "Le métier d'Eleveur permet la dompte de différentes créatures et bêtes afin d'en faire des alliées fidèles ou de bon gardes. l'Eleveur peut également élevé des animaux afin d'en faire des montures.",
+            "L’eau s'écoule et se transforme, suivant les pensées du mage. Il la guide, la modèle, la fait surgir en torrents ou l'apprivoise en gouttes légères. D’un simple mouvement, il peut faire naître des vagues, des geysers ou des cristaux gelés, chaque éclat de liquide répondant à son appel.",
         ],
         button: {
             text: 'Get Started',
@@ -41,7 +41,7 @@ const pricing = [
         popular: false,
         link: groundImg,
         features: [
-            "Les métiers qui tiennent du domaine de l'art et du divertissement consistent à rendre le moral aux autres, les divertir, offrir la joie moyennant finances. Les prouesses offrent des bonus non négligeables aux joueurs et peuvent demander une music box",
+            'La terre et les plantes répondent à l’appel du mage, leurs racines s’étendant sous ses pieds. Il façonne le sol et les roches, modelant des montagnes ou faisant surgir des forêts entières. En touchant la terre, il fait croître des plantes, les tord et les élève, sculptant la nature elle-même, reliant chaque élément à sa volonté.',
         ],
         button: {
             text: 'Get Started',
@@ -53,7 +53,7 @@ const pricing = [
         popular: false,
         link: airImg,
         features: [
-            "Le métier d'enchanteur consiste à récupérer des gemmes ou pierres magiques afin d'en faire des enchantements divers et variés (Des enchantements hors gameplay peuvent être proposer sur votre suivi afin de possiblement devenir réel en RP !)",
+            'L’air se courbe et se plie à la volonté du mage, léger comme un murmure ou puissant comme un cyclone. Il manipule les vents, modifiant leur direction, leur pression, leur vitesse, créant des tourments ou des silences apaisants. L’atmosphère devient une toile, sur laquelle il peint avec l’invisible.',
         ],
         button: {
             text: 'Get Started',
@@ -65,7 +65,7 @@ const pricing = [
         popular: false,
         link: arcaneImg,
         features: [
-            'Les métiers de prêtre ou de chaman consistent à faire découvrir leurs dieux, leurs foi aux autres tout autant que bénir autrui, faire offrandes à leurs dieux, ôter ou octroyer des malédictions sous le signe de leurs dieux.',
+            'permettant d’influencer la vaste majorité de ce qui touche à l’Esprit. Rares sont ceux pratiquant cette forme de Magie, car elle demande bien plus de temps d’étude et de pratique pour en développer les capacités. Cette forme de Magie, que certains nomment “Arcanes” ou “Magie de l’Esprit”, est néanmoins l’une des plus vastes qui existe et beaucoup de ses secrets sont encore à découvrir.',
         ],
         button: {
             text: 'Get Started',
@@ -77,7 +77,7 @@ const pricing = [
         popular: false,
         link: bloodImg,
         features: [
-            'Les métiers de prêtre ou de chaman consistent à faire découvrir leurs dieux, leurs foi aux autres tout autant que bénir autrui, faire offrandes à leurs dieux, ôter ou octroyer des malédictions sous le signe de leurs dieux.',
+            'capable d’énormément de choses en faisant usage de l’énergie vitale. Certains nomment cela “Magie du Sang”, d’autres poussent leurs expériences vers la Nécromancie.',
         ],
         button: {
             text: 'Get Started',
@@ -89,7 +89,7 @@ const pricing = [
         popular: false,
         link: divineImg,
         features: [
-            'Les métiers de prêtre ou de chaman consistent à faire découvrir leurs dieux, leurs foi aux autres tout autant que bénir autrui, faire offrandes à leurs dieux, ôter ou octroyer des malédictions sous le signe de leurs dieux.',
+            'ce que beaucoup peuvent nommer “Magie Divine”. Lumière et Ténèbres réunies en un tout complexe et sensible.',
         ],
         button: {
             text: 'Get Started',
@@ -111,7 +111,7 @@ const pricing = [
             >
         </LandingSectionhead>
 
-        <div class="grid md:grid-cols-3 gap-4 mx-auto max-w-screen-lg mt-4">
+        <div class="grid md:grid-cols-2 gap-4 mx-auto max-w-screen-lg mt-4">
             <LandingCard v-for="item of pricing" :plan="item" />
         </div>
     </LandingContainer>
