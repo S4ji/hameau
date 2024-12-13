@@ -1,12 +1,10 @@
 <script setup>
 definePageMeta({
-  layout: "landing",
-});
+    layout: 'landing',
+})
 </script>
 
 <template>
-   <LandingContainer>
-    <LandingHeroJoin></LandingHeroJoin>
-
-  </LandingContainer>
+    <LandingContainer />
+    <LandingHeroJoin />
 </template>
