@@ -1,48 +1,49 @@
 <script setup>
-defineProps(["plan"]);
+defineProps(['plan'])
 </script>
 
 <template>
-  <div>
-    <div
-      class="flex flex-col w-full order-first lg:order-none border-2 border-[#489d9d25] border-opacity-50 py-5 px-6 rounded-md"
-    >
-      <div class="text-center">
-        <h4 class="text-lg font-medium text-teal-100">{{ plan.name }}</h4>
-        <img
-        class="rounded-full transition-transform transform hover:scale-125"
-        :src=" plan.link"
-        alt="Starship starts the engine"
-        loading="eager"
-        format="avif"
-        width="256"
-        height="256"
-      />
-        <p class="mt-3 text-4xl font-bold text-teal-50 md:text-4xl">
-          {{
-            plan.price && typeof plan.price === "object"
-              ? plan.price.monthly
-              : plan.price
-          }}
-        </p>
-        <!-- {
+    <div>
+        <div
+            class="flex flex-col w-full order-first lg:order-none border-2 border-[#489d9d25] border-opacity-50 py-5 px-6 rounded-md"
+        >
+            <div class="text-center">
+                <h4 class="text-lg font-medium text-teal-100">
+                    {{ plan.name }}
+                </h4>
+                <img
+                    class="transition-transform transform hover:scale-125"
+                    :src="plan.link"
+                    alt="Starship starts the engine"
+                    loading="eager"
+                    format="avif"
+                    width="256"
+                    height="256"
+                />
+                <p class="mt-3 text-4xl font-bold text-teal-50 md:text-4xl">
+                    {{
+                        plan.price && typeof plan.price === 'object'
+                            ? plan.price.monthly
+                            : plan.price
+                    }}
+                </p>
+                <!-- {
         plan.price.original && (
           <p class="mt-1 text-xl font-medium text-gray-400 line-through md:text-2xl">
             {plan.price.original}
           </p>
         )
       } -->
-      </div>
-      <ul class="grid mt-8 text-left gap-y-4">
-        <li
-          v-for="item of plan.features"
-          class="flex items-start gap-3 text-teal-100"
-        >
-          <LandingTick className="w-6 h-6" />
-          <span>{{ item }}</span>
-        </li>
-      </ul>
-
+            </div>
+            <ul class="grid mt-8 text-left gap-y-4">
+                <li
+                    v-for="item of plan.features"
+                    class="flex items-start gap-3 text-teal-100"
+                >
+                    <LandingTick className="w-6 h-6" />
+                    <span>{{ item }}</span>
+                </li>
+            </ul>
+        </div>
     </div>
-  </div>
 </template>

@@ -3,11 +3,25 @@ definePageMeta({
     layout: 'landing',
 })
 
+import humanImg from '@/assets/img/636271801914013762.png'
+import elfImg from '@/assets/img//636287075350739045.png'
+import orcImg from '@/assets/img/purepng.com-orcorchumanoid-creaturefantasyorcs-17015277835174smkk.png'
+import dwarfImg from '@/assets/img/636271781394265550.png'
+import angelImg from '@/assets/img/Aasimar-5e.webp'
+import demonImg from '@/assets/img/636287076637981942.png'
+import vampireImg from '@/assets/img/637880558387597883.png'
+import lycanImg from '@/assets/img/Werewolf Ravager.webp'
+import deepFolkImg from '@/assets/img/637880558376086808.png'
+import gobelinImg from '@/assets/img/637880558308320616.png'
+import shapeshifterImg from '@/assets/img/637880558376086808.png'
+import dragonImg from '@/assets/img/et850hkp4f261.png'
+import spiritBeastImg from '@/assets/img/637880558341143698.png'
+
 const pricing = [
     {
         price: 'Humains',
         popular: false,
-        link: 'testurl',
+        link: humanImg,
         features: [
             "La race la plus commune sur les terres du Hameau, leur capacité à repousser l'échéance est telle qu'ils peuvent se sortir des situations les plus dangereuses, ils possèdent un 'second souffle' qui leur permet de régénérer une partie de leur santé, de devenir plus résistants à la douleur et de se déplacer plus vite et plus longtemps lorsque la situation est critique",
         ],
@@ -19,7 +33,7 @@ const pricing = [
     {
         price: 'Elfes',
         popular: false,
-        link: 'testurl',
+        link: elfImg,
         features: [
             "Une race ayant une affinité pour la magie, ils sont capables de voir dans l'obscurité, sont un peu plus endurants et sont capables de lancer des sortilèges de manière plus efficace que les autres race (Bonus stamina max et bonus dégâts de sorts Indrid)",
         ],
@@ -31,7 +45,7 @@ const pricing = [
     {
         price: 'Orcs',
         popular: false,
-        link: 'testurl',
+        link: orcImg,
         features: [
             'Une race de guerrier brutaux et sanguinaires, ils possèdent une résistance naturelle plus élevée que les autres races, ce qui leur permet de combattre plus longtemps.',
         ],
@@ -43,7 +57,7 @@ const pricing = [
     {
         price: 'Nains',
         popular: false,
-        link: 'testurl',
+        link: dwarfImg,
         features: [
             "Une race de travailleurs forcenés, adorant les mines et les montagnes, ils sont naturellement plus résistant que d'autre races et peuvent voir dans l'obscurité",
         ],
@@ -55,7 +69,7 @@ const pricing = [
     {
         price: 'Anges',
         popular: false,
-        link: 'testurl',
+        link: angelImg,
         features: [
             "Des êtres célestes de lumière pure, ils ne peuvent être corrompus, ont la capacité de voler, et sont capable de voir dans l'obscurité",
         ],
@@ -67,7 +81,7 @@ const pricing = [
     {
         price: 'Démons',
         popular: false,
-        link: 'testurl',
+        link: demonImg,
         features: [
             "Des êtres venus des profondeurs des enfers, ils adorent tourmenter les mortels et ont ces derniers comme mets favoris, ils peuvent dévorer n'importe quel cadavre pour devenir plus résistants, sont capables de voler, de voir dans l'obscurité, et sont invulnérables aux chaleurs extrêmes.",
         ],
@@ -79,7 +93,7 @@ const pricing = [
     {
         price: 'Vampires',
         popular: false,
-        link: 'testurl',
+        link: vampireImg,
         features: [
             "Des êtres considérés comme immortels (mais intemporels dans les faits), ils n'ont besoin de se nourrir que de sang, ils en ont besoin pour survivre, ils ont la capacité de se transformer en une immonde créature, certains ont la capacité de vol, ils peuvent se soigner via les blessures qu'ils infligent, sont capable de voir dans la nuit et ne peuvent être noyés de par le fait qu'ils ne respirent pas.",
         ],
@@ -91,7 +105,7 @@ const pricing = [
     {
         price: 'Lycans',
         popular: false,
-        link: 'testurl',
+        link: lycanImg,
         features: [
             "Les ennemis mortels des vampires, ces derniers peuvent se transformer en d'immondes créature mi-homme, mi-loup, leurs griffes acérés peuvent se montrer redoutables, ils sont capable de se nourrir sur n'importe quelle créature, ils ont des jambes leur permettant des sauts d'une hauteur inégalée, et possèdent des réflexes identiques à leur vitesse.",
         ],
@@ -103,7 +117,7 @@ const pricing = [
     {
         price: 'Créatures des abysses',
         popular: false,
-        link: 'testurl',
+        link: deepFolkImg,
         features: [
             "Toute créature vivant dans les profondeurs des mers les plus hostiles, ils sont naturellement amphibiens, sont capable de voir dans l'obscurité totale des profondeurs, et sont immunisés aux climats les plus froids.",
         ],
@@ -115,7 +129,7 @@ const pricing = [
     {
         price: 'Gobelins',
         popular: false,
-        link: 'testurl',
+        link: gobelinImg,
         features: [
             ' Une race de petites créatures sauvages et agile, ayant un appétit vorace. Ils peuvent aussi voir dans la nuit, et sont infatigables',
         ],
@@ -127,7 +141,7 @@ const pricing = [
     {
         price: 'Changeformes',
         popular: false,
-        link: 'testurl',
+        link: shapeshifterImg,
         features: [
             "Tout ceux ayant la capacité de se transformer en divers animaux se regroupent ici. Ils sont de nature plutôt pacifiste, mais sont capable, dans les situations délicate, de s'enfuir ou de combattre de manière plus véloce. En fonction de l'animal qu'ils prennent comme forme, ils peuvent voir dans l'obscurité.",
         ],
@@ -139,7 +153,7 @@ const pricing = [
     {
         price: 'Dragonoïdes',
         popular: false,
-        link: 'testurl',
+        link: dragonImg,
         features: [
             "Une race de créatures puissantes, nobles, naturellement plus résistantes que les autres races, ayant la capacité de vol, d'alterner entre leur forme humaine et draconnique, ils peuvent se renforcer selon leur état de satiété, et sont capable de s'adapter à tout climat.",
         ],
@@ -151,7 +165,7 @@ const pricing = [
     {
         price: 'Créatures Spirituelles',
         popular: false,
-        link: 'testurl',
+        link: spiritBeastImg,
         features: [
             "Divers esprits peuplent cette catégorie, il peuvent se transformer, voir dans le noir, et s'adapter à tout type de climat",
         ],
