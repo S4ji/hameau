@@ -15,7 +15,7 @@ defineProps(['plan'])
 
             <div class="flex justify-center mb-4">
                 <img
-                    class="rounded-full w-48 h-48 object-contain transition-transform transform hover:scale-125"
+                    class="rounded-full w-64 h-64 object-contain transition-transform transform hover:scale-125"
                     :src="plan.link"
                     alt="Image description"
                     loading="eager"
