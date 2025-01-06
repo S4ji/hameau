@@ -111,17 +111,9 @@ const team = [
     <LandingContainer>
         <LandingSectionhead>
             <template v-slot:title>Notre équipe</template>
-            <template v-slot:desc>We are a small passionate team.</template>
+            <template v-slot:desc>Une petite équipe de passionnés</template>
         </LandingSectionhead>
 
-        <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
-            <h2 class="font-bold text-3xl text-gray-800">
-                Lorem ipsum dolor sit.
-            </h2>
-            <p class="text-lg leading-relaxed text-slate-500">
-                Voici l'équipe qui s'occupe de vous sur le hameau !
-            </p>
-        </div>
         <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
             <div v-for="item of team" class="group">
                 <div class="w-full aspect-square">
