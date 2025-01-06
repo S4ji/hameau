@@ -23,6 +23,5 @@ definePageMeta({
             style="border: none"
         >
         </iframe>
-        <!-- <LandingRpTerms :rules="clanWarPvpRules" /> -->
     </LandingContainer>
 </template>

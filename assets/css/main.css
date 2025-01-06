@@ -4,7 +4,9 @@
 
 @layer base {
     body {
-        @apply text-teal-50 bg-gradient-to-b from-teal-950 to-black; /* Replace with your desired text color */
+        @apply text-teal-50 bg-gradient-to-b from-teal-950 to-black min-h-screen; /* Tailwind utilities */
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     * {
         list-style: none;
