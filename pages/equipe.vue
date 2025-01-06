@@ -1,140 +1,146 @@
 <script setup>
 definePageMeta({
-  layout: "landing",
-});
+    layout: 'landing',
+})
 
-const TeamImg1 = "https://source.unsplash.com/IF9TK5Uy-KI";
-const TeamImg2 = "https://source.unsplash.com/iEEBWgY_6lA";
-const TeamImg3 = "https://source.unsplash.com/ZHvM3XIOHoE";
+import aela from '@/assets/img/aela.jpg'
+import shaylfer from '@/assets/img/Shaylfer.png'
+import soryu from '@/assets/img/soryu.png'
+import sutekh from '@/assets/img/sutekh.jpg'
+import elyria from '@/assets/img/Elyria.png'
+import alka from '@/assets/img/alka.jpeg'
+import maxhos from '@/assets/img/maxhos.webp'
+import katelyn from '@/assets/img/katelyn.webp'
+import yuci from '@/assets/img/yuci.jpg'
 
 const team = [
-  {
-    name: "Fonda",
-    title: "Fondateur",
-    description:'',
-    avatar: {
-      src: TeamImg1,
-      width: 480,
-      height: 560,
+    {
+        name: 'Fonda',
+        title: 'Fondateur',
+        description: '',
+        avatar: {
+            src: aela,
+            width: 480,
+            height: 560,
+        },
     },
-  },
-  {
-    name: "Shaylfer",
-    title: "Modérateur",
-    description:'',
-    avatar: {
-      src: TeamImg1,
-      width: 480,
-      height: 560,
+    {
+        name: 'Shaylfer',
+        title: 'Modérateur',
+        description: '',
+        avatar: {
+            src: shaylfer,
+            width: 480,
+            height: 560,
+        },
     },
-  },
-  {
-    name: "Maxhos",
-    title: "Modérateur",
-    description:'',
-    avatar: {
-      src: TeamImg1,
-      width: 480,
-      height: 560,
+    {
+        name: 'Maxhos',
+        title: 'Modérateur',
+        description: '',
+        avatar: {
+            src: maxhos,
+            width: 480,
+            height: 560,
+        },
     },
-  },
-  {
-    name: "Alkaéna",
-    title: "Helper",
-    description:'',
-    avatar: {
-      src: TeamImg1,
-      width: 480,
-      height: 560,
+    {
+        name: 'Alkaéna',
+        title: 'Helper',
+        description: '',
+        avatar: {
+            src: alka,
+            width: 480,
+            height: 560,
+        },
     },
-  },
-  {
-    name: "Elyria",
-    title: "Helper",
-    description:'',
-    avatar: {
-      src: TeamImg1,
-      width: 480,
-      height: 560,
+    {
+        name: 'Elyria',
+        title: 'Helper',
+        description: '',
+        avatar: {
+            src: elyria,
+            width: 480,
+            height: 560,
+        },
     },
-  },
-  {
-    name: "Dame Soryü",
-    title: "Animateur",
-    description:'',
-    avatar: {
-      src: TeamImg1,
-      width: 480,
-      height: 560,
+    {
+        name: 'Yuci',
+        title: 'Helper',
+        description: '',
+        avatar: {
+            src: yuci,
+            width: 480,
+            height: 560,
+        },
     },
-  },
-  {
-    name: "Sutekh",
-    title: "Animateur",
-    description:'',
-    avatar: {
-      src: TeamImg1,
-      width: 480,
-      height: 560,
+    {
+        name: 'Sutekh',
+        title: 'Animateur',
+        description: '',
+        avatar: {
+            src: sutekh,
+            width: 480,
+            height: 560,
+        },
     },
-  },
-  {
-    name: "Kate",
-    title: "Animateur",
-    description:'',
-    avatar: {
-      src: TeamImg1,
-      width: 480,
-      height: 560,
+    {
+        name: 'Kate',
+        title: 'Animateur',
+        description: '',
+        avatar: {
+            src: katelyn,
+            width: 480,
+            height: 560,
+        },
     },
-  },
-  {
-    name: "Edwin",
-    title: "Animateur",
-    description:'',
-    avatar: {
-      src: TeamImg1,
-      width: 480,
-      height: 560,
+    {
+        name: 'Dame Soryü',
+        title: 'Animateur',
+        description: '',
+        avatar: {
+            src: soryu,
+            width: 480,
+            height: 560,
+        },
     },
-  },
-];
+]
 </script>
 
 <template>
-  <LandingContainer>
-    <LandingSectionhead>
-      <template v-slot:title>Notre équipe</template>
-      <template v-slot:desc>We are a small passionate team.</template>
-    </LandingSectionhead>
+    <LandingContainer>
+        <LandingSectionhead>
+            <template v-slot:title>Notre équipe</template>
+            <template v-slot:desc>We are a small passionate team.</template>
+        </LandingSectionhead>
 
-    <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
-      <h2 class="font-bold text-3xl text-gray-800">
-        Lorem ipsum dolor sit.
-      </h2>
-      <p class="text-lg leading-relaxed text-slate-500">
-        Voici l'équipe qui s'occupe de vous sur le hameau !
-      </p>
-    </div>
-    <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
-      <div v-for="item of team" class="group">
-        <div class="w-full aspect-square">
-          <img
-            :src="item.avatar.src"
-            :width="item.avatar.width"
-            :height="item.avatar.height"
-            format="avif"
-            alt="Team"
-            class="w-full h-full object-cover rounded transition group-hover:-translate-y-1 group-hover:shadow-xl"
-          />
+        <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
+            <h2 class="font-bold text-3xl text-gray-800">
+                Lorem ipsum dolor sit.
+            </h2>
+            <p class="text-lg leading-relaxed text-slate-500">
+                Voici l'équipe qui s'occupe de vous sur le hameau !
+            </p>
         </div>
+        <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
+            <div v-for="item of team" class="group">
+                <div class="w-full aspect-square">
+                    <img
+                        :src="item.avatar.src"
+                        :width="item.avatar.width"
+                        :height="item.avatar.height"
+                        format="avif"
+                        alt="Team"
+                        class="w-full h-full object-cover rounded transition group-hover:-translate-y-1 group-hover:shadow-xl"
+                    />
+                </div>
 
-        <div class="mt-4 text-center">
-          <h2 class="text-lg text-gray-800">{{ item.name }}</h2>
-          <h3 class="text-sm text-slate-500">{{ item.title }}</h3>
-        </div>
-      </div>
-      <!-- {
+                <div class="mt-4 text-center">
+                    <h2 class="text-lg text-teal-100">{{ item.name }}</h2>
+                    <h3 class="text-sm text-slate-500">{{ item.title }}</h3>
+                </div>
+            </div>
+            <!-- {
         team.map((item) => (
           <div class="group">
             <div class="w-full aspect-square">
@@ -153,6 +159,6 @@ const team = [
           </div>
         ))
       } -->
-    </div>
-  </LandingContainer>
+        </div>
+    </LandingContainer>
 </template>

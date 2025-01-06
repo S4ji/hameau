@@ -10,6 +10,7 @@
                 class="ps-5 mt-2 space-y-1 list-disc list-inside"
             >
                 <li
+                    class=""
                     v-for="(subRule, subIndex) in rule.subRules"
                     :key="subIndex"
                 >

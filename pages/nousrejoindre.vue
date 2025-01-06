@@ -5,6 +5,5 @@ definePageMeta({
 </script>
 
 <template>
-    <LandingContainer />
-    <LandingHeroJoin />
+    <LandingContainer> <LandingHeroJoin></LandingHeroJoin> </LandingContainer>
 </template>

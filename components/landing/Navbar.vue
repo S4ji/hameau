@@ -30,6 +30,8 @@ const menuitems = [
     },
 ]
 
+import logo from '@/assets/img/logohameau.png'
+
 const open = ref(false)
 </script>
 
@@ -40,9 +42,8 @@ const open = ref(false)
         >
             <div class="flex w-full lg:w-auto items-center justify-between">
                 <a href="/" class="text-lg"
-                    ><span class="font-bold text-slate-400">Nuxt</span
-                    ><span class="text-slate-500">ship</span>
-                </a>
+                    ><img :src="logo" alt="" width="300" height="250"
+                /></a>
                 <div class="block lg:hidden">
                     <button @click="open = !open" class="text-gray-800">
                         <svg
