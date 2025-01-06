@@ -42,7 +42,7 @@ const open = ref(false)
         >
             <div class="flex w-full lg:w-auto items-center justify-between">
                 <a href="/" class="text-lg"
-                    ><img :src="logo" alt="" width="150" height="150"
+                    ><img :src="logo" alt="" width="100" height="120"
                 /></a>
                 <div class="block lg:hidden">
                     <button @click="open = !open" class="text-gray-800">
