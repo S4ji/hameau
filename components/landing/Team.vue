@@ -19,7 +19,7 @@
 
             <div class="mt-4 text-center">
                 <h2 class="text-lg text-teal-100">{{ item.name }}</h2>
-                <h3 class="text-sm text-slate-500">{{ item.title }}</h3>
+                <h3 class="text-sm text-teal-500">{{ item.title }}</h3>
             </div>
         </div>
     </div>
