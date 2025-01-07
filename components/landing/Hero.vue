@@ -1,3 +1,7 @@
+<script setup>
+const rulesUrl = '/reglement'
+</script>
+
 <template>
     <main class="grid lg:grid-cols-2 place-items-center pt-16 md:pt-8">
         <div class="p-24 md:order-1 hidden md:block">
@@ -25,17 +29,16 @@
             </p>
             <div class="mt-6 flex flex-col sm:flex-row gap-3">
                 <LandingLink
-                    href="https://github.com/Gr33nW33n/nuxtship-template"
                     target="_blank"
                     rel="noopener"
+                    href="https://discord.gg/fvC4sz8yZd"
                     >Nous Rejoindre</LandingLink
                 >
                 <LandingLink
                     size="lg"
                     styleName="outline"
                     rel="noopener"
-                    href="https://github.com/Gr33nW33n/nuxtship-template"
-                    target="_blank"
+                    :href="rulesUrl"
                     >Lire le Règlement</LandingLink
                 >
             </div>
