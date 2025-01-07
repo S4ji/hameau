@@ -157,8 +157,8 @@ const pricing = [
             <template v-slot:title>Métiers</template>
             <template v-slot:desc
                 ><p class="text-teal-100">
-                    Grâce à Indrid, de nombreuses races sont accessibles, avec
-                    leur bonus au niveau du gameplay.
+                    Choissisez jusqu'à deux métiers à exercer, avec chacun des
+                    spécifités qui les rendent uniques et indispensables !
                 </p></template
             >
         </LandingSectionhead>

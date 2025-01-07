@@ -105,8 +105,9 @@ const pricing = [
             <template v-slot:title>Magie</template>
             <template v-slot:desc
                 ><p class="text-teal-100">
-                    Grâce à Indrid, de nombreuses races sont accessibles, avec
-                    leur bonus au niveau du gameplay.
+                    En arrivant, vous predez tous vos pouvoirs.. Pourtant, vous
+                    pouvez ressentir quelque chose, d'étrange, propre à
+                    l'endroit ou vous êtes arrivés..
                 </p></template
             >
         </LandingSectionhead>

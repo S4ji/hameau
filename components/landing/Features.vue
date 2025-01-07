@@ -3,13 +3,13 @@ const features = [
     {
         title: 'Devenez un des survivants, à la conquête du continent !',
         description:
-            "Une dyanmique d'exploration originale, le but est de débloquer la carte au fur et à mesure des intrigues qui se dessinnent",
+            "Une dynamique d'exploration originale, le but est de débloquer la carte au fur et à mesure des intrigues qui se dessinnent",
         icon: 'bx:bxs-file-find',
     },
     {
         title: 'Map Savage Wilds',
         description:
-            'Venez découvrir la célèbre map moddée, revisitée par nos soins avec Murun comme centre urbain !.',
+            'Venez découvrir la célèbre map moddée, revisitée par nos soins avec Murun comme centre urbain !',
         icon: 'bx:bxs-briefcase',
     },
     {
@@ -21,7 +21,7 @@ const features = [
     {
         title: 'Mise en valeurs de vos projets',
         description:
-            'Nous écoutons vos projets RP dans ce serveur où seul vos actions feront évoluer les terres. Notre système de projet RP vous permet de proposer vos idées et à nous de les suivres !',
+            'Nous écoutons vos projets RP dans ce serveur où seules vos actions feront évoluer les terres. Notre système de projet RP vous permet de proposer vos idées et à nous de les suivres !',
         icon: 'bx:bxs-data',
     },
     {

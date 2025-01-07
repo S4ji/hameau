@@ -20,8 +20,8 @@
             </h1>
             <p class="text-lg mt-4 text-slate-300 max-w-xl">
                 Serveur dédié Conan Exiles 35 Slots évolutifs. Prenez part à
-                cette aventure entourée d'un staff à l'écoute de vos projets RP,
-                d'une carte en constante évolution selon vos choix.
+                cette aventure, entourés d'un staff à l'écoute de vos projets
+                RP, d'une carte en constante évolution selon vos choix.
             </p>
             <div class="mt-6 flex flex-col sm:flex-row gap-3">
                 <LandingLink
