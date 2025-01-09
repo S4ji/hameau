@@ -26,7 +26,7 @@
 </template>
 
 <script lang="ts" setup>
-import aela from '@/assets/img/aela.jpg'
+import aela from '@/assets/img/aela.png'
 import shaylfer from '@/assets/img/Shaylfer.png'
 import soryu from '@/assets/img/soryu.png'
 import sutekh from '@/assets/img/sutekh.jpg'

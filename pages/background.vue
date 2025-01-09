@@ -2,6 +2,86 @@
 definePageMeta({
     layout: 'landing',
 })
+
+import plaine1 from '@/assets/img/plaine1.png'
+import plaine2 from '@/assets/img/plaine2.png'
+import plaine3 from '@/assets/img/plaine3.png'
+import night1 from '@/assets/img/night1.png'
+import night2 from '@/assets/img/night3.png'
+import night3 from '@/assets/img/night4.png'
+import civ1 from '@/assets/img/villagedruidesse.png'
+import civ2 from '@/assets/img/murun2.png'
+import civ3 from '@/assets/img/hameau.png'
+
+const band1 = [
+    {
+        avatar: {
+            src: plaine1,
+            width: 480,
+            height: 560,
+        },
+    },
+    {
+        avatar: {
+            src: plaine2,
+            width: 480,
+            height: 560,
+        },
+    },
+    {
+        avatar: {
+            src: plaine3,
+            width: 480,
+            height: 560,
+        },
+    },
+]
+const band2 = [
+    {
+        avatar: {
+            src: night1,
+            width: 480,
+            height: 560,
+        },
+    },
+    {
+        avatar: {
+            src: night2,
+            width: 480,
+            height: 560,
+        },
+    },
+    {
+        avatar: {
+            src: night3,
+            width: 480,
+            height: 560,
+        },
+    },
+]
+const band3 = [
+    {
+        avatar: {
+            src: civ1,
+            width: 480,
+            height: 560,
+        },
+    },
+    {
+        avatar: {
+            src: civ2,
+            width: 480,
+            height: 560,
+        },
+    },
+    {
+        avatar: {
+            src: civ3,
+            width: 480,
+            height: 560,
+        },
+    },
+]
 </script>
 
 <template>
@@ -15,6 +95,20 @@ definePageMeta({
                     les secrets des terres sauvages et, peut-être, à retrouver
                     un jour leur foyer.
                 </p>
+                <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
+                    <div v-for="item of band1" class="group">
+                        <div class="w-full aspect-square">
+                            <img
+                                :src="item.avatar.src"
+                                :width="item.avatar.width"
+                                :height="item.avatar.height"
+                                format="avif"
+                                alt="Team"
+                                class="w-full h-full object-cover rounded transition group-hover:-translate-y-1 group-hover:shadow-xl"
+                            />
+                        </div>
+                    </div>
+                </div>
                 <p class="text-teal-100 text-justify pb-4">
                     Dans les profondeurs des terres sauvages, là où les horizons
                     s'étirent à perte de vue et où la brume épaisse enveloppe
@@ -36,6 +130,21 @@ definePageMeta({
                     errent dans l'obscurité.
                 </p>
 
+                <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
+                    <div v-for="item of band2" class="group">
+                        <div class="w-full aspect-square">
+                            <img
+                                :src="item.avatar.src"
+                                :width="item.avatar.width"
+                                :height="item.avatar.height"
+                                format="avif"
+                                alt="Team"
+                                class="w-full h-full object-cover rounded transition group-hover:-translate-y-1 group-hover:shadow-xl"
+                            />
+                        </div>
+                    </div>
+                </div>
+
                 <p class="text-teal-100 text-justify pb-4">
                     Les nouveaux arrivants, arrachés à leur monde par un portail
                     mystérieux leurs prenant tous leurs pouvoirs et précipités
@@ -54,6 +163,21 @@ definePageMeta({
                     sécurité est précaire, car les forces du mal ne sont jamais
                     loin, guettant le moment propice pour frapper.
                 </p>
+
+                <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
+                    <div v-for="item of band3" class="group">
+                        <div class="w-full aspect-square">
+                            <img
+                                :src="item.avatar.src"
+                                :width="item.avatar.width"
+                                :height="item.avatar.height"
+                                format="avif"
+                                alt="Team"
+                                class="w-full h-full object-cover rounded transition group-hover:-translate-y-1 group-hover:shadow-xl"
+                            />
+                        </div>
+                    </div>
+                </div>
 
                 <p class="text-teal-100 text-justify pb-4">
                     Les habitants du hameau vivent dans la crainte constante,
