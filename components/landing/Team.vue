@@ -31,7 +31,7 @@ import shaylfer from '@/assets/img/Shaylfer.png'
 import soryu from '@/assets/img/soryu.png'
 import sutekh from '@/assets/img/sutekh.jpg'
 import elyria from '@/assets/img/Elyria.png'
-import alka from '@/assets/img/alka.jpeg'
+import anaire from '@/assets/img/anaire.png'
 import maxhos from '@/assets/img/maxhos.webp'
 import katelyn from '@/assets/img/katelyn.webp'
 import yuci from '@/assets/img/yuci.jpg'
@@ -69,11 +69,11 @@ const team = [
         },
     },
     {
-        name: 'Alkaéna',
+        name: 'Anaïré',
         title: 'Helper',
         description: '',
         avatar: {
-            src: alka,
+            src: anaire,
             width: 480,
             height: 560,
         },
