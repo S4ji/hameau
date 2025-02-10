@@ -89,31 +89,11 @@ const team = [
         },
     },
     {
-        name: 'Yuci',
-        title: 'Helper',
-        description: '',
-        avatar: {
-            src: yuci,
-            width: 480,
-            height: 560,
-        },
-    },
-    {
         name: 'Sutekh',
         title: 'Animateur',
         description: '',
         avatar: {
             src: sutekh,
-            width: 480,
-            height: 560,
-        },
-    },
-    {
-        name: 'Kate',
-        title: 'Animateur',
-        description: '',
-        avatar: {
-            src: katelyn,
             width: 480,
             height: 560,
         },
