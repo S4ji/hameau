@@ -70,7 +70,7 @@ const team = [
     },
     {
         name: 'Anaïré',
-        title: 'Helper',
+        title: 'Assisstant Animateur',
         description: '',
         avatar: {
             src: anaire,
@@ -110,7 +110,7 @@ const team = [
     },
     {
         name: 'Edwin',
-        title: 'Animateur',
+        title: 'Assisstant Animateur',
         description: '',
         avatar: {
             src: edwin,
